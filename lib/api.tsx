@@ -16,9 +16,6 @@ export type Workout = {
   instructions: string[];
 };
 
-// Tolerant normaliser: works even if field names differ slightly.
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
-export function norm(w: any): Workout {
   let cats: unknown =
     w.muscleGroups ?? w.categories ?? w.tags ?? w.category ?? w.muscles ?? [];
   if (!Array.isArray(cats)) cats = String(cats).split(",");
