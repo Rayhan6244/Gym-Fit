@@ -1,4 +1,4 @@
-# 💪 FitLog — Workout Library
+#  FitLog — Workout Library
 
 A dark, no-nonsense gym companion: pick a lift, lock it into today's plan, and watch the week's work add up.
 
