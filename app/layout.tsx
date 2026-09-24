@@ -2,7 +2,7 @@ import "./globals.css";
 import type { Metadata } from "next";
 import type { ReactNode } from "react";
 import { Oswald, Inter } from "next/font/google";
-import Store from "@/components/Store";
+import Store from "@/components/store";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
