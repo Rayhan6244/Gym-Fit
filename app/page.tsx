@@ -30,7 +30,7 @@ export default function Home() {
           </h1>
           <p className="mt-4 max-w-md text-neutral-400">
             FitLog is a dark, no-nonsense gym companion: pick a lift, lock it
-            into today's plan, and watch the week's work add up.
+            into todays plan, and watch the weeks work add up.
           </p>
           <a href="#library" className="btn btn-primary mt-6">
             BROWSE WORKOUTS ↓
@@ -66,9 +66,11 @@ export default function Home() {
               href={`/workout/${w.id}`}
               className="group overflow-hidden rounded-xl border border-line bg-card transition hover:border-accent/60"
             >
-              <img
+              <Image
                 src={w.image}
                 alt={w.title}
+                width={740}
+                height={416}
                 className="aspect-[16/9] w-full object-cover"
               />
               <div className="space-y-2 p-4">

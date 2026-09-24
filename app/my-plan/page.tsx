@@ -1,9 +1,9 @@
 "use client";
 import Link from "next/link";
 import { useState } from "react";
-import { useStore } from "@/components/Store";
+import { useStore } from "@/components/store";
 import type { Workout } from "@/lib/api";
-import { Stats } from "@/components/Stats";
+import { Stats } from "@/components/stats";
 
 type Tab = "plan" | "saved";
 const sorters: Record<string, (a: Workout, b: Workout) => number> = {
