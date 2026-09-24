@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import { useParams } from "next/navigation";
 import { getOne, type Workout } from "@/lib/api";
-import { useStore, CAP } from "@/components/Store";
+import { useStore, CAP } from "@/components/store";
 import NotFound from "@/app/not-found";
 
 export default function Details() {

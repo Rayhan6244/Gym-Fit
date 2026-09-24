@@ -4,7 +4,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useStore } from "@/components/Store";
+import { useStore } from "@/components/store";
 import logoImg from "../assets/logo.png";
 
 export default function Navbar(): React.JSX.Element {
