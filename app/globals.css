@@ -1,6 +1,13 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #0b0d0f;
+  --color-card: #15191d;
+  --color-line: #2a3036;
+  --color-accent: #c9ff2f;
+  --font-display: var(--font-oswald);
+  --font-sans: var(--font-inter);
+}
 
 body {
   @apply bg-bg text-neutral-200 font-sans;
